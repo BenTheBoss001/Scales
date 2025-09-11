@@ -20,7 +20,6 @@ void draw(){
 
 void scales(int x, int y){
   num += 1;
-  System.out.println(num);
   stroke(0);
   fill(78, 184, g);
   //int g = (int)(Math.random()*256);
@@ -33,5 +32,6 @@ void scales(int x, int y){
   bezier(x,y+12.5,x+62.5,y+27.5,x,y+87.5,x,y+87.5);
   bezier(x,y+12.5,x-62.5,y+27.5,x,y+87.5,x,y+87.5);
 }
+
 
 
